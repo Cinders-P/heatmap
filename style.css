@@ -1,87 +1,107 @@
 .t0 {
-  fill: #5e4fa2;
+    fill: #5e4fa2;
 }
+
 .t1 {
-  fill: #3288bd;
+    fill: #3288bd;
 }
+
 .t2 {
-  fill: #66c2a5;
+    fill: #66c2a5;
 }
+
 .t3 {
-  fill: #abdda4;
+    fill: #abdda4;
 }
+
 .t4 {
-  fill: #e6f598;
+    fill: #e6f598;
 }
+
 .t5 {
-  fill: #ffffbf;
+    fill: #ffffbf;
 }
+
 .t6 {
-  fill: #fee08b;
+    fill: #fee08b;
 }
+
 .t7 {
-  fill: #fdae61;
+    fill: #fdae61;
 }
+
 .t8 {
-  fill: #f46d43;
+    fill: #f46d43;
 }
+
 .t9 {
-  fill: #d53e4f;
+    fill: #d53e4f;
 }
+
 .t10 {
-  fill: #9e0142;
+    fill: #9e0142;
 }
+
 body {
-  background-color: #c5e1a5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  font-family: sans-serif;
+    background-color: #c5e1a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
 }
+
 .label {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 .title {
-  font-size: 2rem;
+    font-size: 2rem;
 }
+
 #pic {
-  background-image: url("./bg.jpg");
-  mix-blend-mode: multiply;
-  position: absolute;
-  min-height: 100%;
-  min-width: 100vw;
-  flex-grow: 1;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0.5;
-  filter: brightness(0.3);
-  box-shadow: inset 0 0 50px 20px #000;
+    background-image: url("./bg.jpg");
+    mix-blend-mode: multiply;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100vw;
+    flex-grow: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    filter: brightness(0.3);
+    box-shadow: inset 0 0 50px 20px #000;
 }
+
 svg {
-  background-color: #fff;
-  box-shadow: 0 0 50px rgba(0,0,0,0.2);
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
+
 rect {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 rect:hover {
-  stroke: rgba(0,0,0,0.7);
-  stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.7);
+    stroke-width: 1px;
 }
+
 rect[width='31'] {
-  stroke: none;
-  cursor: auto;
+    stroke: none;
+    cursor: auto;
 }
+
 #box {
-  background-color: rgba(0,0,0,0.7);
-  outline: 2px #000;
-  color: #fff;
-  font-size: 12px;
-  height: 54px;
-  padding: 13px 20px 13px 20px;
-  box-sizing: border-box;
-  position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    outline: 2px #000;
+    color: #fff;
+    font-size: 12px;
+    height: 54px;
+    padding: 13px 20px 13px 20px;
+    box-sizing: border-box;
+    position: absolute;
 }
